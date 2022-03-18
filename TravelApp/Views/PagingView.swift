@@ -89,9 +89,9 @@ struct PagingView_Previews: PreviewProvider {
     static var previews: some View {
         PagingView(
             selectedIndex: .constant(0),
-            numberOfPages: SplashPageModel.sampleData.count
+            numberOfPages: SplashModel.sampleData.count
         ) {
-            ForEach(SplashPageModel.sampleData, id: \.self) { model in
+            ForEach(SplashModel.sampleData, id: \.self) { model in
                 SplashView(model)
             }
         }

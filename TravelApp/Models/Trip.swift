@@ -78,7 +78,7 @@ struct Trip: Identifiable {
         Trip(
             title: "Summer Vacation",
             description: "At vero eos censes tantas res gessisse sine metu contineret, saluti prospexit civium. Omne animal, simul atque integre .....",
-            images: ["collage.1", "collage.2", "collage.3"],
+            images: ["collage.1", "collage.2"],
             user: User.dummies[5],
             heartCount: 69,
             commentCount: 96

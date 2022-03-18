@@ -9,10 +9,10 @@ import SwiftUI
 
 struct SplashView: View {
     
-    let model: SplashPageModel
+    let model: SplashModel
     
-    init(_ splashPageModel: SplashPageModel) {
-        self.model = splashPageModel
+    init(_ model: SplashModel) {
+        self.model = model
     }
     
     var body: some View {
@@ -42,6 +42,6 @@ struct SplashView: View {
 
 struct SplashView_Previews: PreviewProvider {
     static var previews: some View {
-        SplashView(SplashPageModel.sampleData[0])
+        SplashView(SplashModel.sampleData[0])
     }
 }

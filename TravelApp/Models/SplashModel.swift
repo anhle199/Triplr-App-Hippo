@@ -1,5 +1,5 @@
 //
-//  SplashPageModel.swift
+//  SplashModel.swift
 //  TravelApp
 //
 //  Created by Le Hoang Anh on 18/03/2022.
@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct SplashPageModel: Hashable {
+struct SplashModel: Hashable {
     let imageName: String
     let title: String
     let description: String
     
-    static let sampleData: [SplashPageModel] = [
+    static let sampleData: [SplashModel] = [
         .init(
             imageName: "splash.1",
             title: "Connect with tourists",
