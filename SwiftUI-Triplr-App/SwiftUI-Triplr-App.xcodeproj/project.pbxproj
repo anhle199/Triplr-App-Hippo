@@ -32,6 +32,11 @@
 		E6FBA76627E4E98F0013065B /* Metropolis-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = E6FBA76127E4E98F0013065B /* Metropolis-Black.otf */; };
 		E6FBA76727E4E98F0013065B /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E6FBA76227E4E98F0013065B /* Metropolis-Medium.otf */; };
 		E6FBA76827E4E98F0013065B /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E6FBA76327E4E98F0013065B /* Metropolis-SemiBold.otf */; };
+		E6FBA76A27E4EDAA0013065B /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA76927E4EDAA0013065B /* TripView.swift */; };
+		E6FBA76C27E4EF8C0013065B /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA76B27E4EF8C0013065B /* PagerView.swift */; };
+		E6FBA76E27E4F4EF0013065B /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA76D27E4F4EF0013065B /* DateView.swift */; };
+		E6FBA77027E4F77C0013065B /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA76F27E4F77C0013065B /* ActivityView.swift */; };
+		E6FBA77227E4F89A0013065B /* ArrivalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA77127E4F89A0013065B /* ArrivalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +67,11 @@
 		E6FBA76127E4E98F0013065B /* Metropolis-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Black.otf"; sourceTree = "<group>"; };
 		E6FBA76227E4E98F0013065B /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
 		E6FBA76327E4E98F0013065B /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		E6FBA76927E4EDAA0013065B /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		E6FBA76B27E4EF8C0013065B /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		E6FBA76D27E4F4EF0013065B /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		E6FBA76F27E4F77C0013065B /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		E6FBA77127E4F89A0013065B /* ArrivalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +206,11 @@
 				E6FBA73F27E4E8F70013065B /* CollageView.swift */,
 				E6FBA74027E4E8F70013065B /* SplashView.swift */,
 				E6FBA74227E4E8F70013065B /* StoryView.swift */,
+				E6FBA76927E4EDAA0013065B /* TripView.swift */,
+				E6FBA76B27E4EF8C0013065B /* PagerView.swift */,
+				E6FBA76D27E4F4EF0013065B /* DateView.swift */,
+				E6FBA76F27E4F77C0013065B /* ActivityView.swift */,
+				E6FBA77127E4F89A0013065B /* ArrivalView.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -295,10 +310,15 @@
 				E6FBA73727E4E8E80013065B /* UIFont+Extension.swift in Sources */,
 				E6FBA75427E4E8F70013065B /* StoryView.swift in Sources */,
 				E6FBA75827E4E8F70013065B /* Story.swift in Sources */,
+				E6FBA77227E4F89A0013065B /* ArrivalView.swift in Sources */,
+				E6FBA76C27E4EF8C0013065B /* PagerView.swift in Sources */,
+				E6FBA76E27E4F4EF0013065B /* DateView.swift in Sources */,
 				E6FBA74E27E4E8F70013065B /* HomeView.swift in Sources */,
+				E6FBA77027E4F77C0013065B /* ActivityView.swift in Sources */,
 				E6FBA75927E4E8F70013065B /* PageControlView.swift in Sources */,
 				E6FBA75727E4E8F70013065B /* User.swift in Sources */,
 				E6FBA75327E4E8F70013065B /* MasterView.swift in Sources */,
+				E6FBA76A27E4EDAA0013065B /* TripView.swift in Sources */,
 				E6FBA75A27E4E8F70013065B /* RoundedCorner.swift in Sources */,
 				E6FBA75227E4E8F70013065B /* SplashView.swift in Sources */,
 				E6FBA75527E4E8F70013065B /* SplashModel.swift in Sources */,

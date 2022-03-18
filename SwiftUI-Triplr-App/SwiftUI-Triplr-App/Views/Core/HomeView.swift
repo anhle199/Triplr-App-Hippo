@@ -15,7 +15,7 @@ struct HomeView: View {
             
             ScrollView {
                 ForEach(Trip.dummies) { trip in
-                    NavigationLink(destination: Text("Destination")) {
+                    NavigationLink(destination: TripView()) {
                         TripContentView(trip: trip)
                     }
                 }
