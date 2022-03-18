@@ -1,6 +1,6 @@
 //
 //  Story.swift
-//  TravelApp
+//  SwiftUI-Triplr-App
 //
 //  Created by Le Hoang Anh on 17/03/2022.
 //

@@ -1,6 +1,6 @@
 //
 //  HomeView.swift
-//  TravelApp
+//  SwiftUI-Triplr-App
 //
 //  Created by Le Hoang Anh on 18/03/2022.
 //
@@ -29,6 +29,5 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
-//            .previewInterfaceOrientation(.landscapeRight)
     }
 }

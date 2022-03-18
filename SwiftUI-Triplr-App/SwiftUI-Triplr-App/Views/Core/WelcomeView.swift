@@ -1,6 +1,6 @@
 //
 //  WelcomeView.swift
-//  TravelApp
+//  SwiftUI-Triplr-App
 //
 //  Created by Le Hoang Anh on 17/03/2022.
 //
@@ -13,9 +13,7 @@ struct WelcomeView: View {
     
     @State private var selectedIndex = 0
     let splashPageData = SplashModel.sampleData
-    var numberOfPages: Int {
-        splashPageData.count
-    }
+    var numberOfPages: Int { splashPageData.count }
     
     var body: some View {
         VStack {
@@ -68,6 +66,5 @@ struct WelcomeView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         WelcomeView()
-//            .previewInterfaceOrientation(.landscapeRight)
     }
 }

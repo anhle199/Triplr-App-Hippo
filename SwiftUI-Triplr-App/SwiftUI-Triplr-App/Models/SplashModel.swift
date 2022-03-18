@@ -1,6 +1,6 @@
 //
 //  SplashModel.swift
-//  TravelApp
+//  SwiftUI-Triplr-App
 //
 //  Created by Le Hoang Anh on 18/03/2022.
 //
